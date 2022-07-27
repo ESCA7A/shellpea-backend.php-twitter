@@ -1,0 +1,28 @@
+<?php
+/**
+ * view page
+ */
+?>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="/View/Styles/Stylesheets.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign in</title>
+</head>
+
+<body>
+  <div class="main">
+    <p class="sign" align="center">Sign in Twitter</p>
+    <form class="form1" action="/Controller/AddCustomer.php" METHOD="post">
+      <input class="un " type="text" align="center" placeholder="Username" name="customer_name">
+      <input class="un " type="text" align="center" placeholder="Nickname" name="customer_nickname">
+      <input class="pass" type="text" align="center" placeholder="Password" name="customer_password"> <?php //password_hash() php ?>
+      <button class="submit" type="submit" align="center">Sign in</button>
+    </form>
+  </div>
+</body>
+
+</html>
