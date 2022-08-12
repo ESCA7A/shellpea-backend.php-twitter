@@ -1,0 +1,17 @@
+{
+  "name": "esca7a/shellpea",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "esca7a",
+      "email": "pavel.tankov@shellpea.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "twitter\\": ["Model", "Controller", "View", "View/Homepage",""]
+    }
+  }
+}
