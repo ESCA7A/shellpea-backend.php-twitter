@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "twitter\\": ["Model", "Controller", "View", "View/Homepage",""]
+      "Twitter\\": ["Twitter/"]
     }
   }
 }
