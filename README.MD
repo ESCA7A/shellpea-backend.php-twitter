@@ -1,4 +1,8 @@
+# alpha 
+
+------
 Git project "Twitter"
+
 ##
 1. Основная идея
 
